@@ -28,7 +28,8 @@ ul.list{
 @media screen and (max-width:570px) { 
     .footer{ 
         height: 90vh;
-        width: 100%;
+        width: 100%; 
+        
     }
     
 } 
