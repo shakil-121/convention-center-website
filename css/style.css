@@ -10,9 +10,11 @@ ul.list{
     background-color: #3F87F5 !important;
     color: #fff; 
     border-radius: 100px 100px;
+    width: 100%;
 } 
 .claint-card{ 
     border-radius: 15px !important;
+    width: 100%;
 } 
 .footer-img{ 
     height: 40px; 
@@ -21,4 +23,18 @@ ul.list{
 .footer{ 
     background-color: #120E43; 
     height: 35vh;
+    width: 100%;
+} 
+@media screen and (max-width:570px) { 
+    .footer{ 
+        height: 90vh;
+        width: 100%;
+    }
+    
+} 
+@media screen and (max-width:768px) {
+    .footer{ 
+        height: 60vh;
+        width: 100%;
+    }
 }

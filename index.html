@@ -17,7 +17,7 @@
     <title>Convetion Center</title>
 </head>
 <body>
-    <header>
+    <header> 
         <div class="container">
             <nav style="font-family: 'Poppins', sans-serif;" class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
@@ -47,6 +47,21 @@
     </header>
     <main>
  <!-- banner slaider section  --> 
+
+
+ <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="..." class="rounded me-2" alt="...">
+    <strong class="me-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
+
+
  <section>
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -55,7 +70,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item col-sm-12 active">
             <img class="img-fluid" src="midea/images/banner.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="fs-1 fw-bold">The perfect venue for your <br>
@@ -96,7 +111,7 @@
  <section class="section-one container my-5">
     <div class="row pt-5">
         <div class="col-md-6">
-          <img src="midea/images/wedding.png" alt="">
+          <img class="img-fluid" src="midea/images/wedding.png" alt="">
         </div>
         <div class="col-md-6 py-5 black">
         <h1>Every moment is Precious </h1> 
@@ -108,7 +123,7 @@
  <section class="container my-5">
     <h1 class="text-center black fw-bold my-5">Our Package</h1>
     <div class="row g-5">
-        <div class="col-3 col-md-12 card px-5 py-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 card px-5 py-3">
             <h1>$300</h1> 
             <h2>Business fair</h2>
             <p>For most businesses event 
@@ -123,7 +138,7 @@
             </ul>
             <button class="button2">Choose plan</button>
         </div>
-        <div class="col-3 col-md-12 card px-5 py-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 card px-5 py-3">
             <h1>$300</h1> 
             <h2>Business fair</h2>
             <p>For most businesses event 
@@ -138,7 +153,7 @@
             </ul>
             <button class="button2">Choose plan</button>
         </div>
-        <div class="col-3 col-md-12 card card-3 px-5 py-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 card card-3 px-5 py-3">
             <h1>$300</h1> 
             <h2>Business fair</h2>
             <p>For most businesses event 
@@ -153,7 +168,7 @@
             </ul>
             <button class="button2-three">Choose plan</button>
         </div>
-        <div class="col-3 col-md-12 card px-5 py-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 card px-5 py-3">
             <h1>$300</h1>   
             <h2>Business fair</h2>
             <p>For most businesses event 
@@ -221,8 +236,8 @@
  <!-- section four  -->
 <section class="container my-5">
   <h1 class="text-center black">Frequently Asked Questions</h1>
-  <row class="d-flex py-5">
-    <div class="col-6">
+  <row class="py-5 d-lg-flex">
+    <div class="col-sm-10 col-md-6 col-lg-6">
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
@@ -286,7 +301,7 @@
         </div>
       </div>
     </div>
-    <div class="col-6">
+    <div class="col-sm-10 col-md-6 col-lg-6">
       <img class="p-3 img-fluid" src="midea/images/people.png" alt="">
     </div>
   </row>
@@ -296,12 +311,12 @@
     <footer>
      <section>
       <div class="row footer">
-        <div class="col-3 text-center  pt-5">
+        <div class="col-sm-10 col-md-6 col-lg-3 text-center  pt-5">
           <p style="color: #ffff;">&copy;2020 bike. All rights reserved <br> Develop by shahadt hossain</p>
         </div>
         <div class="col-3"></div>
         <div class="col-3"></div>
-        <div class="col-3 pt-5 d-flex flex-column">
+        <div class="col-sm-10 col-md-6 col-lg-3 pt-5 d-flex flex-column align-items-center">
           <h4 style="color: #ffff;" class="pb-2">Get the App</h4>
           <img class="img-fluid pb-2 footer-img" src="midea/icons/Google Play Badge.png" alt="">
           <img class="img-fluid footer-img" src="midea/icons/Group.png" alt="">
