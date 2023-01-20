@@ -1,6 +1,4 @@
-:root{ 
-    
-}
+
 .list>li{ 
 list-style: none;
 padding: 0;
@@ -15,4 +13,12 @@ ul.list{
 } 
 .claint-card{ 
     border-radius: 15px !important;
+} 
+.footer-img{ 
+    height: 40px; 
+    width: 135px; 
+} 
+.footer{ 
+    background-color: #120E43; 
+    height: 35vh;
 }
