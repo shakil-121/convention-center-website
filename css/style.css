@@ -1,0 +1,18 @@
+:root{ 
+    
+}
+.list>li{ 
+list-style: none;
+padding: 0;
+}
+ul.list{ 
+    padding: 0px;
+} 
+.card-3{ 
+    background-color: #3F87F5 !important;
+    color: #fff; 
+    border-radius: 100px 100px;
+} 
+.claint-card{ 
+    border-radius: 15px !important;
+}
